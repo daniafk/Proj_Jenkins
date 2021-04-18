@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'python Hello2.py'
+                bat 'python script_usando_funcao.py'
             }
         }
     }
