@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'python script_os.py'
+                bat 'ver.py'
             }
         }
     }
