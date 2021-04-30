@@ -9,6 +9,6 @@ QUERY = (
 query_job = client.query(QUERY)  # API request
 rows = query_job.result()  # Waits for query to finish
 
-print 'tabelas'
+print('passei')
 for row in rows:
     print(row)
