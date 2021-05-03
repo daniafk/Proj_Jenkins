@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'python Hello.py'
+                bat 'python ver.py'
             }
         }
     }
